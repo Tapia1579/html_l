@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+
+  <body>
+    <!--Estructura de formulario-->
+    <form>
+      <!--tag fieldset (Conjunto de campos)-->
+      <fieldset>
+        <!--Titulo fieldset-->
+        <legend>Info User</legend>
+        <div>
+          <label for="user">Nombre</label>
+          <input type="text" id="user" name="name" required placeholder="ingresa nombre"/>
+        </div>
+
+        <div>
+          <label for="msn">Email</label>
+          <input type="email" id="msn" name="name" required placeholder="ingresa email valido"/>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Elige tu sabor</legend>
+        <div>
+          <label>Pizza: </label>
+          <select>
+            <option value="">-- Seleccione una especialidad --</option>
+            <option value="op1">Mexicana</option>
+            <option value="op2">Hawaiana</option>
+            <option value="op3">Peperoni</option>
+            <option value="op4">Especial</option>
+          </select>
+        </div>
+
+        <div>
+          <label>** Indicacion Extra **</label>
+          <div>
+            <textarea name="name"></textarea>
+            <br>
+            <!--Size text small-->
+            <small>Para mayor referencia de textarea <br><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/textarea">'CLICK HERE'</a></small>
+          </div>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>--- Pedido Listo ---</legend>
+        <div>
+          <input type="submit" value="enviar"/>
+        </div>
+      </fieldset>
+    </form>
+    <!--Estructura del cuerpo formulario-->
+    <!-- <form> <!-* primer ejemplo de tag input y enlaces -*>
+        <h3>TAG INPUT</h3>
+        <!-*tag inpu (Interactive-User)*->
+        <!-*Nombre a los labels*->
+        <label for=""></label>
+        <input type="text">
+        <input type="password">
+        <input type="color">
+        <br>
+        <input type="number">
+        <input type="file">
+        <input type="date">
+        <br>
+        <input type="radio">
+        <input type="checkbox">
+        <br>
+        <p>Para más informacion referente a input <br><a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/input" target="_blank">'CLICK HERE'</a>
+        <br><a href="https://devdocs.io/html/reference/elements/input" target="_blank"><br>'CLICK HERE'</a></p>
+    </form> -->
+  </body>
+</html>
